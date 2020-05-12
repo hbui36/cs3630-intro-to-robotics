@@ -1,0 +1,304 @@
+[{
+    "test": "test_maximum_probable_explanation()",
+    "case": [{
+        "observations": [1, 3, 4],
+        "actions": ["Up", "Down"]
+    }, {
+        "observations": [9, 5, 5],
+        "actions": ["Down", "Right"]
+    }, {
+        "observations": [0, 0, 0],
+        "actions": ["Left", "Right"]
+    }, {
+        "observations": [4, 4, 4],
+        "actions": ["Left", "Left"]
+    }, {
+        "observations": [0, 1, 4],
+        "actions": ["Right", "Right"]
+    }, {
+        "observations": [4, 1, 3],
+        "actions": ["Up", "Right"]
+    }, {
+        "observations": [8, 4, 4],
+        "actions": ["Down", "Right"]
+    }, {
+        "observations": [1, 1, 5],
+        "actions": ["Right", "Down"]
+    }, {
+        "observations": [7, 8, 7],
+        "actions": ["Down", "Up"]
+    }, {
+        "observations": [1, 1, 1],
+        "actions": ["Right", "Right"]
+    }, {
+        "observations": [3, 3, 7],
+        "actions": ["Right", "Right"]
+    }, {
+        "observations": [7, 8, 8],
+        "actions": ["Down", "Right"]
+    }, {
+        "observations": [7, 7, 7],
+        "actions": ["Left", "Right"]
+    }, {
+        "observations": [0, 0, 0],
+        "actions": ["Right", "Right"]
+    }, {
+        "observations": [4, 4, 4],
+        "actions": ["Right", "Right"]
+    }, {
+        "observations": [7, 7, 6],
+        "actions": ["Right", "Up"]
+    }, {
+        "observations": [8, 4, 4],
+        "actions": ["Right", "Left"]
+    }, {
+        "observations": [8, 8, 8],
+        "actions": ["Right", "Right"]
+    }, {
+        "observations": [4, 7, 3],
+        "actions": ["Right", "Right"]
+    }, {
+        "observations": [4, 4, 5],
+        "actions": ["Right", "Down"]
+    }, {
+        "observations": [7, 6, 6],
+        "actions": ["Up", "Right"]
+    }, {
+        "observations": [7, 7, 7],
+        "actions": ["Left", "Left"]
+    }, {
+        "observations": [1, 2, 2],
+        "actions": ["Down", "Right"]
+    }, {
+        "observations": [1, 0, 0],
+        "actions": ["Left", "Left"]
+    }, {
+        "observations": [1, 7, 7],
+        "actions": ["Right", "Left"]
+    }, {
+        "observations": [1, 1, 1],
+        "actions": ["Right", "Right"]
+    }, {
+        "observations": [3, 3, 3],
+        "actions": ["Right", "Right"]
+    }, {
+        "observations": [2, 0, 0],
+        "actions": ["Right", "Left"]
+    }, {
+        "observations": [7, 7, 7],
+        "actions": ["Left", "Right"]
+    }, {
+        "observations": [7, 6, 6],
+        "actions": ["Up", "Left"]
+    }, {
+        "observations": [4, 4, 4],
+        "actions": ["Right", "Right"]
+    }, {
+        "observations": [4, 4, 4],
+        "actions": ["Right", "Right"]
+    }, {
+        "observations": [3, 3, 2],
+        "actions": ["Right", "Up"]
+    }, {
+        "observations": [4, 4, 7],
+        "actions": ["Right", "Right"]
+    }, {
+        "observations": [7, 7, 7],
+        "actions": ["Right", "Right"]
+    }, {
+        "observations": [9, 9, 9],
+        "actions": ["Right", "Right"]
+    }, {
+        "observations": [0, 0, 0],
+        "actions": ["Right", "Down"]
+    }, {
+        "observations": [7, 7, 7],
+        "actions": ["Right", "Right"]
+    }, {
+        "observations": [4, 3, 3],
+        "actions": ["Up", "Right"]
+    }, {
+        "observations": [3, 3, 4],
+        "actions": ["Right", "Right"]
+    }, {
+        "observations": [0, 0, 1],
+        "actions": ["Right", "Down"]
+    }, {
+        "observations": [9, 9, 9],
+        "actions": ["Right", "Right"]
+    }, {
+        "observations": [8, 7, 7],
+        "actions": ["Up", "Left"]
+    }, {
+        "observations": [9, 3, 3],
+        "actions": ["Right", "Right"]
+    }, {
+        "observations": [7, 7, 6],
+        "actions": ["Right", "Up"]
+    }, {
+        "observations": [4, 2, 4],
+        "actions": ["Right", "Left"]
+    }, {
+        "observations": [0, 6, 1],
+        "actions": ["Down", "Right"]
+    }, {
+        "observations": [7, 6, 6],
+        "actions": ["Up", "Right"]
+    }, {
+        "observations": [7, 7, 6],
+        "actions": ["Right", "Right"]
+    }, {
+        "observations": [9, 9, 9],
+        "actions": ["Right", "Right"]
+    }, {
+        "observations": [7, 7, 6],
+        "actions": ["Right", "Right"]
+    }, {
+        "observations": [0, 0, 1],
+        "actions": ["Right", "Down"]
+    }, {
+        "observations": [7, 7, 7],
+        "actions": ["Right", "Right"]
+    }, {
+        "observations": [4, 5, 6],
+        "actions": ["Down", "Down"]
+    }, {
+        "observations": [7, 6, 6],
+        "actions": ["Up", "Right"]
+    }, {
+        "observations": [4, 4, 3],
+        "actions": ["Left", "Right"]
+    }, {
+        "observations": [1, 2, 3],
+        "actions": ["Down", "Left"]
+    }, {
+        "observations": [0, 3, 3],
+        "actions": ["Right", "Left"]
+    }, {
+        "observations": [3, 3, 3],
+        "actions": ["Right", "Right"]
+    }, {
+        "observations": [4, 5, 5],
+        "actions": ["Right", "Right"]
+    }, {
+        "observations": [4, 4, 4],
+        "actions": ["Right", "Right"]
+    }, {
+        "observations": [0, 0, 0],
+        "actions": ["Left", "Right"]
+    }, {
+        "observations": [4, 4, 4],
+        "actions": ["Right", "Right"]
+    }, {
+        "observations": [0, 0, 0],
+        "actions": ["Right", "Left"]
+    }, {
+        "observations": [8, 8, 8],
+        "actions": ["Left", "Right"]
+    }, {
+        "observations": [1, 1, 1],
+        "actions": ["Left", "Right"]
+    }, {
+        "observations": [0, 1, 1],
+        "actions": ["Down", "Left"]
+    }, {
+        "observations": [4, 8, 3],
+        "actions": ["Right", "Left"]
+    }, {
+        "observations": [8, 7, 6],
+        "actions": ["Up", "Right"]
+    }, {
+        "observations": [4, 1, 4],
+        "actions": ["Up", "Down"]
+    }, {
+        "observations": [7, 6, 7],
+        "actions": ["Left", "Left"]
+    }, {
+        "observations": [1, 1, 1],
+        "actions": ["Left", "Left"]
+    }, {
+        "observations": [7, 7, 8],
+        "actions": ["Left", "Down"]
+    }, {
+        "observations": [0, 8, 0],
+        "actions": ["Right", "Right"]
+    }, {
+        "observations": [7, 7, 6],
+        "actions": ["Left", "Up"]
+    }, {
+        "observations": [7, 7, 6],
+        "actions": ["Right", "Left"]
+    }, {
+        "observations": [7, 7, 7],
+        "actions": ["Left", "Left"]
+    }, {
+        "observations": [4, 5, 3],
+        "actions": ["Right", "Up"]
+    }, {
+        "observations": [9, 6, 7],
+        "actions": ["Up", "Up"]
+    }, {
+        "observations": [3, 3, 3],
+        "actions": ["Right", "Left"]
+    }, {
+        "observations": [6, 8, 7],
+        "actions": ["Right", "Left"]
+    }, {
+        "observations": [4, 4, 5],
+        "actions": ["Left", "Down"]
+    }, {
+        "observations": [9, 9, 9],
+        "actions": ["Right", "Left"]
+    }, {
+        "observations": [1, 1, 0],
+        "actions": ["Right", "Up"]
+    }, {
+        "observations": [9, 9, 9],
+        "actions": ["Left", "Right"]
+    }, {
+        "observations": [3, 3, 3],
+        "actions": ["Right", "Right"]
+    }, {
+        "observations": [8, 8, 7],
+        "actions": ["Right", "Up"]
+    }, {
+        "observations": [7, 7, 7],
+        "actions": ["Right", "Right"]
+    }, {
+        "observations": [1, 8, 0],
+        "actions": ["Up", "Right"]
+    }, {
+        "observations": [9, 9, 9],
+        "actions": ["Right", "Right"]
+    }, {
+        "observations": [7, 7, 7],
+        "actions": ["Right", "Right"]
+    }, {
+        "observations": [7, 6, 7],
+        "actions": ["Right", "Left"]
+    }, {
+        "observations": [1, 1, 1],
+        "actions": ["Right", "Right"]
+    }, {
+        "observations": [9, 9, 9],
+        "actions": ["Right", "Down"]
+    }, {
+        "observations": [3, 3, 3],
+        "actions": ["Right", "Right"]
+    }, {
+        "observations": [1, 3, 4],
+        "actions": ["Right", "Down"]
+    }, {
+        "observations": [9, 9, 9],
+        "actions": ["Left", "Right"]
+    }, {
+        "observations": [7, 8, 8],
+        "actions": ["Down", "Right"]
+    }, {
+        "observations": [8, 8, 8],
+        "actions": ["Left", "Right"]
+    }, {
+        "observations": [4, 7, 7],
+        "actions": ["Right", "Right"]
+    }]
+}]

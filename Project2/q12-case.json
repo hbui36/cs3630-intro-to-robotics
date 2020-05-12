@@ -1,0 +1,304 @@
+[{
+    "test": "test_general_maximum_probable_explanation()",
+    "case": [{
+        "observations": [9, 9],
+        "actions": ["Right"]
+    }, {
+        "observations": [3, 3, 2],
+        "actions": ["Right", "Up"]
+    }, {
+        "observations": [8, 8, 8, 8],
+        "actions": ["Right", "Right", "Right"]
+    }, {
+        "observations": [9, 8, 4, 8, 8],
+        "actions": ["Up", "Right", "Left", "Left"]
+    }, {
+        "observations": [7, 4, 7, 7, 7, 6],
+        "actions": ["Right", "Right", "Left", "Right", "Up"]
+    }, {
+        "observations": [4, 4, 5, 5, 5, 5, 6],
+        "actions": ["Right", "Down", "Left", "Right", "Left", "Right"]
+    }, {
+        "observations": [1, 1, 0, 6, 0, 0, 0, 0],
+        "actions": ["Left", "Up", "Left", "Up", "Right", "Right", "Left"]
+    }, {
+        "observations": [7, 7, 7, 7, 8, 8, 8, 8, 7],
+        "actions": ["Right", "Right", "Right", "Down", "Right", "Right", "Left", "Right"]
+    }, {
+        "observations": [3, 3, 0, 3, 3, 3, 3, 3, 3, 4],
+        "actions": ["Right", "Right", "Right", "Right", "Right", "Right", "Left", "Left", "Down"]
+    }, {
+        "observations": [7, 6, 6, 5, 5, 8, 5, 5, 5, 4, 4],
+        "actions": ["Right", "Right", "Up", "Right", "Left", "Right", "Right", "Down", "Up", "Right"]
+    }, {
+        "observations": [0, 0, 2, 0, 9, 1, 1, 0, 0, 0, 0, 0],
+        "actions": ["Right", "Up", "Left", "Down", "Right", "Right", "Up", "Right", "Right", "Left", "Left"]
+    }, {
+        "observations": [4, 4, 4, 4, 4, 4, 4, 4, 3, 4, 4, 3, 3],
+        "actions": ["Up", "Left", "Right", "Up", "Right", "Left", "Right", "Right", "Right", "Right", "Up", "Right"]
+    }, {
+        "observations": [1, 1, 1, 1, 1, 3, 2, 1, 1, 1, 3, 1, 3, 1],
+        "actions": ["Right", "Right", "Left", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right"]
+    }, {
+        "observations": [4, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 9, 0, 0, 0],
+        "actions": ["Up", "Right", "Right", "Right", "Right", "Left", "Left", "Right", "Right", "Left", "Left", "Right", "Right", "Right"]
+    }, {
+        "observations": [4, 4, 4, 4, 3, 3, 2, 2, 2, 2, 1, 2, 1, 1, 1, 1],
+        "actions": ["Left", "Right", "Down", "Up", "Right", "Up", "Right", "Left", "Left", "Up", "Down", "Down", "Right", "Right", "Right"]
+    }, {
+        "observations": [0, 0, 0, 0, 1, 1, 2, 3, 3, 2, 2, 1, 1, 1, 1, 1, 1],
+        "actions": ["Left", "Right", "Right", "Down", "Right", "Down", "Right", "Right", "Left", "Right", "Right", "Right", "Right", "Right", "Left", "Left"]
+    }, {
+        "observations": [9, 4, 6, 3, 3, 3, 3, 8, 8, 5, 5, 4, 5, 6, 6, 6, 6, 5],
+        "actions": ["Right", "Left", "Left", "Left", "Right", "Right", "Down", "Up", "Right", "Up", "Left", "Down", "Down", "Right", "Right", "Right", "Left"]
+    }, {
+        "observations": [4, 4, 3, 2, 3, 1, 1, 0, 0, 1, 1, 9, 5, 1, 1, 2, 3, 3, 7],
+        "actions": ["Left", "Right", "Up", "Up", "Up", "Right", "Right", "Up", "Down", "Right", "Right", "Right", "Right", "Right", "Down", "Down", "Right", "Left"]
+    }, {
+        "observations": [2, 5, 5, 5, 5, 6, 6, 7, 8, 7, 7, 7, 7, 7, 4, 4, 7, 7, 6, 6],
+        "actions": ["Down", "Right", "Left", "Left", "Down", "Right", "Down", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Down", "Right", "Up", "Right"]
+    }, {
+        "observations": [7, 0, 7, 6, 7, 7, 8, 8, 8, 8, 8, 8, 7, 7, 8, 8, 7, 7, 6, 6, 6],
+        "actions": ["Left", "Left", "Up", "Down", "Right", "Down", "Right", "Right", "Right", "Right", "Right", "Up", "Right", "Right", "Left", "Right", "Left", "Up", "Left", "Right"]
+    }, {
+        "observations": [4, 5, 5, 6, 6, 6, 6, 6, 6, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 4, 3],
+        "actions": ["Right", "Left", "Down", "Right", "Right", "Right", "Right", "Right", "Up", "Right", "Right", "Left", "Right", "Right", "Right", "Left", "Left", "Left", "Right", "Up", "Left"]
+    }, {
+        "observations": [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 6, 2, 2],
+        "actions": ["Up", "Right", "Right", "Right", "Right", "Right", "Left", "Up", "Right", "Left", "Right", "Right", "Right", "Up", "Right", "Left", "Up", "Right", "Down", "Down", "Right", "Right"]
+    }, {
+        "observations": [3, 3, 4, 4, 4, 8, 3, 3, 3, 3, 6, 3, 3, 4, 5, 5, 5, 5, 0, 5, 5, 2, 6, 6],
+        "actions": ["Right", "Down", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Left", "Right", "Right", "Right", "Down", "Right", "Right", "Left", "Right", "Right", "Right", "Left", "Right", "Down"]
+    }, {
+        "observations": [4, 3, 4, 4, 3, 4, 4, 4, 5, 4, 4, 4, 4, 4, 3, 3, 3, 4, 3, 4, 7, 6, 6, 6, 5],
+        "actions": ["Right", "Down", "Right", "Right", "Down", "Right", "Left", "Down", "Up", "Left", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Up", "Down", "Down", "Down", "Right", "Left", "Left"]
+    }, {
+        "observations": [4, 4, 4, 4, 3, 3, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 6, 5, 5, 5, 5, 5, 5, 5, 6, 6],
+        "actions": ["Left", "Right", "Right", "Down", "Right", "Down", "Right", "Right", "Down", "Right", "Right", "Right", "Right", "Left", "Left", "Right", "Up", "Right", "Right", "Right", "Down", "Right", "Left", "Down", "Left"]
+    }, {
+        "observations": [9, 9, 9, 9, 9, 4, 9, 1, 9, 8, 9, 9, 9, 9, 9, 9, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 7],
+        "actions": ["Down", "Right", "Right", "Right", "Up", "Right", "Down", "Right", "Right", "Right", "Left", "Right", "Left", "Right", "Right", "Up", "Right", "Right", "Right", "Right", "Up", "Left", "Right", "Left", "Right", "Right"]
+    }, {
+        "observations": [8, 8, 7, 7, 6, 9, 6, 6, 6, 6, 6, 6, 5, 5, 5, 6, 6, 6, 4, 7, 7, 6, 6, 2, 6, 6, 6, 6],
+        "actions": ["Right", "Up", "Left", "Up", "Right", "Right", "Right", "Left", "Right", "Right", "Right", "Up", "Right", "Left", "Down", "Right", "Left", "Left", "Right", "Right", "Right", "Right", "Right", "Right", "Left", "Right", "Right"]
+    }, {
+        "observations": [8, 9, 9, 1, 7, 7, 5, 7, 6, 6, 6, 5, 5, 5, 5, 5, 8, 5, 5, 5, 6, 6, 3, 5, 5, 5, 5, 5, 5],
+        "actions": ["Right", "Right", "Up", "Up", "Left", "Down", "Right", "Left", "Right", "Left", "Up", "Left", "Right", "Left", "Right", "Left", "Right", "Right", "Right", "Down", "Left", "Right", "Right", "Right", "Right", "Right", "Right", "Left"]
+    }, {
+        "observations": [4, 4, 4, 4, 4, 3, 4, 4, 4, 4, 5, 5, 5, 5, 5, 4, 3, 3, 2, 2, 2, 3, 4, 4, 5, 5, 5, 4, 4, 2],
+        "actions": ["Right", "Right", "Right", "Right", "Right", "Right", "Left", "Right", "Left", "Left", "Left", "Right", "Left", "Right", "Up", "Up", "Right", "Up", "Right", "Right", "Down", "Left", "Right", "Right", "Right", "Right", "Up", "Left", "Left"]
+    }, {
+        "observations": [9, 3, 0, 3, 3, 3, 3, 3, 3, 3, 2, 3, 2, 3, 2, 3, 3, 3, 4, 4, 4, 4, 2, 4, 4, 3, 4, 4, 5, 5, 5],
+        "actions": ["Up", "Left", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Down", "Up", "Down", "Up", "Down", "Right", "Right", "Down", "Right", "Right", "Right", "Right", "Right", "Right", "Up", "Right", "Right", "Down", "Right", "Right"]
+    }, {
+        "observations": [4, 2, 4, 5, 5, 5, 5, 5, 5, 5, 6, 5, 5, 5, 5, 5, 5, 5, 5, 4, 4, 5, 6, 6, 6, 5, 5, 5, 5, 5, 5, 5],
+        "actions": ["Right", "Right", "Down", "Left", "Left", "Right", "Down", "Left", "Left", "Down", "Up", "Left", "Right", "Left", "Right", "Right", "Right", "Right", "Up", "Right", "Down", "Down", "Right", "Left", "Up", "Left", "Left", "Right", "Left", "Left", "Right"]
+    }, {
+        "observations": [7, 7, 7, 2, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 8, 3, 8, 8, 8, 6, 8, 9, 9, 9, 9, 6, 9, 9, 2, 9, 9, 9, 9],
+        "actions": ["Right", "Left", "Right", "Left", "Right", "Right", "Right", "Right", "Right", "Right", "Left", "Left", "Left", "Right", "Right", "Right", "Right", "Right", "Up", "Left", "Down", "Down", "Right", "Right", "Left", "Left", "Right", "Down", "Right", "Left", "Left", "Right"]
+    }, {
+        "observations": [4, 4, 8, 5, 5, 5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 5, 5, 4, 4, 4, 4, 4, 5, 5, 4, 4, 4, 4, 4, 7, 4, 4, 4, 4],
+        "actions": ["Right", "Left", "Down", "Right", "Right", "Right", "Right", "Left", "Right", "Right", "Right", "Right", "Left", "Right", "Down", "Right", "Right", "Right", "Left", "Right", "Right", "Right", "Down", "Right", "Right", "Right", "Right", "Right", "Left", "Right", "Down", "Left", "Right"]
+    }, {
+        "observations": [9, 9, 9, 9, 9, 9, 9, 8, 8, 8, 8, 8, 9, 9, 9, 6, 9, 9, 9, 9, 8, 8, 8, 8, 8, 8, 8, 7, 8, 8, 8, 8, 8, 7, 0],
+        "actions": ["Right", "Right", "Left", "Right", "Left", "Left", "Up", "Down", "Right", "Right", "Left", "Right", "Right", "Down", "Left", "Right", "Right", "Right", "Right", "Up", "Right", "Left", "Right", "Left", "Right", "Right", "Left", "Right", "Right", "Right", "Right", "Left", "Right", "Right"]
+    }, {
+        "observations": [8, 8, 8, 7, 7, 7, 5, 0, 8, 8, 8, 8, 8, 9, 9, 9, 9, 9, 9, 9, 9, 8, 8, 8, 8, 8, 9, 8, 7, 8, 8, 8, 8, 8, 8, 8],
+        "actions": ["Up", "Left", "Up", "Right", "Left", "Right", "Right", "Right", "Right", "Left", "Right", "Right", "Down", "Right", "Down", "Left", "Right", "Right", "Right", "Right", "Up", "Right", "Right", "Right", "Right", "Down", "Up", "Left", "Left", "Right", "Right", "Right", "Right", "Left", "Right"]
+    }, {
+        "observations": [4, 4, 5, 5, 6, 6, 6, 5, 6, 6, 6, 6, 6, 5, 6, 6, 6, 7, 6, 2, 6, 8, 7, 8, 8, 9, 9, 9, 8, 8, 8, 8, 7, 7, 7, 3, 6],
+        "actions": ["Right", "Down", "Left", "Down", "Right", "Down", "Up", "Left", "Right", "Right", "Right", "Right", "Up", "Down", "Left", "Right", "Down", "Right", "Right", "Right", "Right", "Up", "Left", "Right", "Right", "Right", "Right", "Up", "Right", "Right", "Left", "Right", "Left", "Right", "Up", "Right"]
+    }, {
+        "observations": [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 8, 1, 4, 4, 5, 5, 5, 4, 5, 5, 5, 6, 5, 5, 4, 4],
+        "actions": ["Right", "Right", "Right", "Right", "Right", "Right", "Left", "Right", "Down", "Right", "Right", "Right", "Left", "Down", "Right", "Right", "Left", "Up", "Right", "Right", "Right", "Right", "Up", "Right", "Left", "Down", "Right", "Right", "Down", "Down", "Left", "Left", "Down", "Up", "Right", "Right", "Right"]
+    }, {
+        "observations": [7, 7, 6, 5, 5, 6, 6, 6, 6, 6, 6, 5, 5, 5, 4, 4, 4, 4, 0, 4, 3, 3, 4, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3, 3, 4, 3],
+        "actions": ["Right", "Up", "Right", "Left", "Down", "Right", "Right", "Right", "Right", "Left", "Up", "Right", "Right", "Up", "Right", "Right", "Left", "Right", "Right", "Up", "Left", "Down", "Down", "Right", "Left", "Up", "Right", "Right", "Left", "Right", "Right", "Right", "Right", "Up", "Right", "Right", "Right", "Right"]
+    }, {
+        "observations": [8, 9, 9, 9, 9, 9, 9, 9, 9, 9, 7, 9, 8, 7, 1, 7, 8, 9, 9, 9, 9, 9, 9, 9, 9, 6, 9, 9, 9, 9, 4, 9, 8, 9, 9, 8, 8, 8, 8, 8],
+        "actions": ["Down", "Right", "Right", "Down", "Left", "Right", "Right", "Right", "Right", "Down", "Right", "Up", "Up", "Right", "Right", "Down", "Right", "Left", "Right", "Right", "Right", "Left", "Right", "Left", "Right", "Left", "Right", "Right", "Left", "Right", "Right", "Right", "Right", "Right", "Down", "Right", "Right", "Right", "Left"]
+    }, {
+        "observations": [4, 5, 5, 5, 5, 3, 6, 6, 6, 5, 6, 6, 6, 6, 5, 5, 5, 5, 5, 7, 5, 5, 6, 5, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 1, 4, 3, 4, 4],
+        "actions": ["Down", "Right", "Right", "Left", "Down", "Right", "Left", "Right", "Up", "Right", "Right", "Right", "Right", "Up", "Right", "Right", "Left", "Left", "Left", "Right", "Right", "Down", "Up", "Left", "Down", "Left", "Right", "Right", "Right", "Left", "Right", "Right", "Right", "Right", "Down", "Right", "Right", "Right", "Left", "Left"]
+    }, {
+        "observations": [8, 8, 8, 8, 7, 7, 8, 8, 0, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 8, 9, 9, 9, 9, 9, 9, 9, 9, 8, 8, 8, 7, 6, 6, 2, 7],
+        "actions": ["Left", "Left", "Right", "Right", "Right", "Right", "Right", "Down", "Left", "Down", "Right", "Right", "Left", "Right", "Down", "Right", "Left", "Left", "Left", "Left", "Left", "Right", "Right", "Right", "Right", "Left", "Left", "Right", "Right", "Right", "Right", "Right", "Down", "Right", "Right", "Right", "Up", "Up", "Right", "Up", "Down"]
+    }, {
+        "observations": [4, 7, 4, 4, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 6, 1, 1, 1, 0, 0, 0, 0, 0, 1, 2, 2, 2, 2, 2, 1, 2, 0, 0, 0, 0, 1, 1, 6],
+        "actions": ["Right", "Right", "Right", "Up", "Right", "Left", "Right", "Right", "Right", "Left", "Right", "Right", "Left", "Left", "Up", "Right", "Right", "Right", "Up", "Right", "Right", "Left", "Up", "Left", "Right", "Right", "Left", "Down", "Up", "Left", "Right", "Right", "Right", "Up", "Up", "Right", "Left", "Right", "Right", "Right", "Right", "Right"]
+    }, {
+        "observations": [4, 4, 5, 5, 6, 6, 6, 6, 5, 4, 9, 4, 4, 4, 3, 3, 3, 3, 3, 3, 2, 5, 0, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 0, 0, 1, 1, 2, 3, 3, 4, 2, 5, 5],
+        "actions": ["Right", "Down", "Right", "Down", "Right", "Right", "Right", "Down", "Up", "Left", "Right", "Right", "Right", "Left", "Right", "Right", "Right", "Left", "Left", "Left", "Right", "Right", "Left", "Right", "Right", "Left", "Right", "Left", "Right", "Right", "Up", "Right", "Up", "Right", "Down", "Right", "Right", "Down", "Right", "Down", "Right", "Down", "Right"]
+    }, {
+        "observations": [4, 4, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 2, 5, 5, 5, 5, 5, 5, 1, 5, 5, 5, 5, 4, 4, 4, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 3, 3, 2],
+        "actions": ["Right", "Right", "Right", "Left", "Right", "Left", "Right", "Right", "Right", "Right", "Left", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Left", "Right", "Right", "Up", "Right", "Right", "Up", "Left", "Left", "Right", "Right", "Right", "Right", "Right", "Right", "Down", "Right", "Right", "Right", "Left", "Right", "Up", "Up", "Down"]
+    }, {
+        "observations": [9, 9, 9, 8, 7, 6, 6, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 8, 9, 8, 8, 9, 9, 9, 9, 8, 8, 8, 8, 7, 7, 7, 7, 7, 7, 7, 7, 6],
+        "actions": ["Down", "Right", "Up", "Up", "Left", "Right", "Down", "Right", "Left", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Left", "Left", "Right", "Right", "Right", "Right", "Down", "Left", "Down", "Up", "Up", "Down", "Left", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Left", "Up", "Right", "Right", "Right", "Up"]
+    }, {
+        "observations": [3, 3, 3, 3, 2, 1, 2, 2, 3, 3, 4, 4, 4, 4, 4, 3, 3, 2, 3, 3, 3, 3, 3, 2, 2, 5, 4, 4, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 6, 2, 2, 2, 2, 2, 2, 2, 2],
+        "actions": ["Left", "Right", "Right", "Right", "Up", "Down", "Down", "Down", "Right", "Down", "Left", "Left", "Right", "Right", "Up", "Right", "Right", "Left", "Down", "Left", "Left", "Right", "Right", "Right", "Right", "Down", "Right", "Down", "Left", "Right", "Right", "Right", "Left", "Right", "Right", "Right", "Left", "Right", "Up", "Left", "Right", "Right", "Right", "Left", "Right", "Right"]
+    }, {
+        "observations": [4, 4, 3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 5, 1, 1, 1, 2, 2, 2, 2, 2, 2, 1, 2, 6, 1, 1, 1, 1, 1, 1, 0, 0, 0, 7, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1],
+        "actions": ["Left", "Right", "Right", "Right", "Left", "Down", "Left", "Right", "Up", "Right", "Right", "Down", "Right", "Right", "Left", "Left", "Left", "Right", "Right", "Up", "Left", "Right", "Down", "Up", "Right", "Right", "Right", "Right", "Right", "Right", "Up", "Right", "Left", "Left", "Right", "Down", "Left", "Right", "Right", "Right", "Left", "Right", "Right", "Right", "Right", "Left", "Left"]
+    }, {
+        "observations": [0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 1, 7, 0, 1, 0, 0, 0, 1, 1, 1, 2, 2, 2, 1, 1, 1, 2, 3, 3, 3, 7, 0, 3, 2, 3, 3, 3],
+        "actions": ["Up", "Right", "Right", "Left", "Down", "Left", "Left", "Right", "Right", "Right", "Up", "Right", "Down", "Up", "Right", "Left", "Right", "Down", "Up", "Down", "Right", "Right", "Up", "Right", "Down", "Up", "Right", "Right", "Down", "Right", "Right", "Down", "Right", "Right", "Up", "Right", "Left", "Down", "Down", "Right", "Right", "Left", "Left", "Right", "Right", "Right", "Left", "Left"]
+    }, {
+        "observations": [8, 5, 1, 8, 8, 7, 8, 8, 8, 8, 8, 7, 8, 8, 8, 5, 8, 8, 8, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 8, 8, 8, 8, 8, 9, 9, 9, 9, 1, 9, 9, 9, 9, 8, 7, 7, 7, 7, 8],
+        "actions": ["Right", "Right", "Right", "Up", "Left", "Down", "Right", "Left", "Right", "Right", "Left", "Right", "Left", "Right", "Right", "Right", "Right", "Left", "Down", "Right", "Right", "Left", "Right", "Right", "Right", "Down", "Right", "Right", "Right", "Up", "Right", "Up", "Right", "Left", "Right", "Left", "Down", "Right", "Right", "Right", "Right", "Left", "Right", "Right", "Right", "Right", "Right", "Right", "Right"]
+    }, {
+        "observations": [4, 7, 1, 8, 7, 7, 6, 6, 9, 5, 5, 5, 5, 4, 4, 4, 4, 4, 3, 7, 9, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 6, 9, 4, 4, 4, 3, 5, 3, 2, 2, 2, 1, 1, 1, 4, 1, 1, 1, 1],
+        "actions": ["Left", "Left", "Down", "Right", "Right", "Down", "Right", "Up", "Right", "Right", "Right", "Right", "Up", "Right", "Left", "Down", "Left", "Left", "Right", "Right", "Up", "Right", "Left", "Down", "Left", "Right", "Down", "Down", "Right", "Down", "Up", "Down", "Left", "Up", "Right", "Left", "Down", "Right", "Right", "Up", "Right", "Left", "Up", "Right", "Right", "Left", "Right", "Right", "Down", "Right"]
+    }, {
+        "observations": [1, 1],
+        "actions": ["Left"]
+    }, {
+        "observations": [1, 0, 0],
+        "actions": ["Up", "Up"]
+    }, {
+        "observations": [3, 3, 3, 2],
+        "actions": ["Right", "Right", "Up"]
+    }, {
+        "observations": [3, 3, 3, 4, 3],
+        "actions": ["Right", "Right", "Down", "Up"]
+    }, {
+        "observations": [4, 4, 0, 4, 4, 5],
+        "actions": ["Right", "Right", "Left", "Right", "Left"]
+    }, {
+        "observations": [1, 9, 8, 9, 8, 9, 9],
+        "actions": ["Right", "Up", "Right", "Right", "Left", "Right"]
+    }, {
+        "observations": [0, 0, 3, 0, 0, 1, 2, 1],
+        "actions": ["Up", "Right", "Right", "Right", "Down", "Right", "Right"]
+    }, {
+        "observations": [8, 8, 8, 8, 9, 9, 9, 9, 9],
+        "actions": ["Right", "Right", "Right", "Down", "Left", "Right", "Left", "Right"]
+    }, {
+        "observations": [4, 4, 4, 4, 4, 4, 4, 4, 5, 5],
+        "actions": ["Right", "Right", "Left", "Left", "Left", "Right", "Right", "Down", "Down"]
+    }, {
+        "observations": [4, 5, 9, 5, 5, 5, 5, 5, 5, 6, 5],
+        "actions": ["Down", "Right", "Right", "Right", "Right", "Right", "Left", "Right", "Up", "Down"]
+    }, {
+        "observations": [9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9],
+        "actions": ["Down", "Right", "Left", "Right", "Right", "Right", "Right", "Right", "Down", "Right", "Right"]
+    }, {
+        "observations": [4, 4, 5, 5, 5, 6, 5, 5, 5, 8, 5, 4, 4],
+        "actions": ["Right", "Up", "Right", "Down", "Left", "Up", "Left", "Right", "Left", "Left", "Up", "Left"]
+    }, {
+        "observations": [9, 9, 9, 9, 9, 9, 9, 9, 8, 8, 8, 9, 9, 9],
+        "actions": ["Right", "Right", "Right", "Left", "Right", "Right", "Left", "Up", "Left", "Right", "Down", "Right", "Right"]
+    }, {
+        "observations": [4, 4, 4, 4, 4, 3, 3, 3, 2, 2, 2, 2, 2, 1, 1],
+        "actions": ["Left", "Right", "Right", "Right", "Up", "Right", "Up", "Right", "Right", "Right", "Right", "Left", "Right", "Up"]
+    }, {
+        "observations": [1, 0, 1, 9, 1, 1, 1, 1, 1, 1, 2, 3, 3, 3, 3, 3],
+        "actions": ["Up", "Down", "Left", "Right", "Left", "Left", "Right", "Right", "Right", "Down", "Left", "Right", "Right", "Left", "Right"]
+    }, {
+        "observations": [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 3, 3, 3, 3],
+        "actions": ["Right", "Down", "Left", "Right", "Right", "Right", "Down", "Left", "Right", "Left", "Down", "Left", "Right", "Right", "Right", "Right"]
+    }, {
+        "observations": [4, 4, 4, 4, 5, 5, 5, 6, 7, 7, 7, 6, 6, 6, 6, 5, 6, 5],
+        "actions": ["Right", "Right", "Right", "Down", "Down", "Left", "Down", "Right", "Right", "Right", "Right", "Left", "Left", "Right", "Up", "Down", "Up"]
+    }, {
+        "observations": [3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 3, 2, 2, 2, 2, 2, 1, 1],
+        "actions": ["Right", "Left", "Right", "Right", "Right", "Right", "Up", "Right", "Right", "Left", "Right", "Right", "Right", "Left", "Right", "Left", "Left", "Right"]
+    }, {
+        "observations": [7, 7, 7, 0, 7, 7, 7, 7, 7, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 0],
+        "actions": ["Left", "Right", "Right", "Right", "Right", "Right", "Right", "Left", "Down", "Right", "Right", "Left", "Right", "Right", "Right", "Right", "Right", "Left", "Right"]
+    }, {
+        "observations": [0, 4, 4, 4, 5, 6, 6, 3, 6, 5, 5, 5, 4, 8, 6, 7, 6, 5, 0, 5, 5],
+        "actions": ["Right", "Left", "Right", "Right", "Down", "Right", "Right", "Right", "Up", "Right", "Left", "Right", "Right", "Left", "Down", "Right", "Up", "Right", "Right", "Left"]
+    }, {
+        "observations": [2, 0, 0, 0, 0, 1, 2, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 0],
+        "actions": ["Right", "Right", "Right", "Right", "Down", "Down", "Up", "Right", "Right", "Right", "Right", "Up", "Right", "Left", "Right", "Right", "Right", "Right", "Right", "Right", "Left"]
+    }, {
+        "observations": [1, 1, 1, 1, 1, 3, 1, 6, 0, 0, 1, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 0],
+        "actions": ["Right", "Right", "Right", "Up", "Right", "Right", "Up", "Right", "Right", "Left", "Down", "Left", "Right", "Right", "Right", "Right", "Right", "Up", "Right", "Left", "Left", "Up"]
+    }, {
+        "observations": [4, 7, 4, 4, 4, 5, 5, 4, 0, 4, 4, 4, 3, 8, 3, 2, 3, 3, 3, 2, 2, 2, 3, 3],
+        "actions": ["Up", "Down", "Right", "Right", "Right", "Right", "Up", "Right", "Right", "Right", "Up", "Left", "Right", "Right", "Right", "Left", "Right", "Left", "Right", "Left", "Right", "Down", "Right"]
+    }, {
+        "observations": [8, 9, 9, 8, 9, 8, 8, 7, 0, 7, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 7, 8, 8, 2, 7],
+        "actions": ["Down", "Right", "Up", "Down", "Up", "Right", "Up", "Left", "Right", "Down", "Right", "Down", "Right", "Left", "Right", "Right", "Left", "Left", "Right", "Left", "Left", "Right", "Up", "Right"]
+    }, {
+        "observations": [4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 4, 4, 4, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 3, 3],
+        "actions": ["Left", "Right", "Right", "Right", "Left", "Right", "Right", "Down", "Right", "Up", "Right", "Right", "Up", "Right", "Left", "Left", "Right", "Right", "Right", "Right", "Left", "Left", "Right", "Right", "Right"]
+    }, {
+        "observations": [4, 4, 4, 4, 4, 4, 5, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+        "actions": ["Right", "Right", "Left", "Right", "Left", "Down", "Down", "Right", "Left", "Left", "Left", "Right", "Right", "Right", "Right", "Right", "Up", "Left", "Left", "Right", "Right", "Left", "Right", "Right", "Right", "Left"]
+    }, {
+        "observations": [4, 9, 8, 8, 8, 9, 9, 8, 8, 7, 7, 8, 1, 7, 7, 8, 9, 9, 9, 9, 8, 8, 8, 8, 8, 0, 8, 8],
+        "actions": ["Right", "Right", "Left", "Right", "Left", "Left", "Up", "Right", "Up", "Right", "Down", "Up", "Right", "Left", "Left", "Left", "Right", "Right", "Right", "Up", "Right", "Right", "Right", "Left", "Right", "Left", "Right"]
+    }, {
+        "observations": [1, 1, 5, 1, 0, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 9, 4, 4, 5, 5, 5, 5, 6, 5, 5, 5, 5, 5],
+        "actions": ["Right", "Right", "Left", "Down", "Down", "Down", "Right", "Right", "Right", "Right", "Right", "Right", "Left", "Left", "Right", "Right", "Right", "Right", "Down", "Right", "Right", "Left", "Right", "Right", "Right", "Right", "Left", "Right"]
+    }, {
+        "observations": [4, 4, 4, 3, 3, 2, 2, 3, 3, 3, 3, 3, 4, 3, 3, 4, 5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4],
+        "actions": ["Left", "Right", "Up", "Right", "Up", "Right", "Right", "Left", "Right", "Left", "Left", "Up", "Up", "Left", "Left", "Right", "Right", "Right", "Left", "Up", "Right", "Right", "Right", "Left", "Right", "Right", "Left", "Right", "Right"]
+    }, {
+        "observations": [9, 9, 9, 9, 9, 9, 9, 9, 9, 7, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 8, 8, 7, 7, 0, 8],
+        "actions": ["Right", "Right", "Right", "Right", "Right", "Right", "Down", "Down", "Right", "Down", "Left", "Right", "Right", "Right", "Right", "Right", "Right", "Left", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Up", "Right", "Left", "Right"]
+    }, {
+        "observations": [9, 9, 9, 9, 8, 8, 8, 8, 8, 8, 8, 9, 9, 9, 9, 8, 8, 8, 8, 7, 7, 7, 1, 7, 7, 7, 7, 8, 8, 8, 8, 8],
+        "actions": ["Right", "Right", "Down", "Right", "Right", "Left", "Left", "Right", "Right", "Left", "Right", "Right", "Up", "Left", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Left", "Left", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Up"]
+    }, {
+        "observations": [4, 4, 4, 3, 2, 1, 2, 1, 2, 2, 2, 2, 2, 1, 8, 0, 0, 0, 0, 1, 0, 1, 6, 2, 2, 3, 3, 3, 3, 3, 9, 3, 3],
+        "actions": ["Right", "Left", "Up", "Right", "Down", "Down", "Up", "Down", "Right", "Right", "Left", "Right", "Left", "Right", "Right", "Left", "Left", "Right", "Left", "Left", "Left", "Down", "Right", "Right", "Left", "Right", "Right", "Left", "Right", "Left", "Right", "Right"]
+    }, {
+        "observations": [7, 8, 7, 7, 7, 7, 7, 7, 7, 6, 2, 7, 7, 6, 6, 5, 5, 5, 6, 7, 8, 7, 7, 7, 7, 8, 4, 6, 6, 6, 6, 3, 7, 7],
+        "actions": ["Down", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Up", "Right", "Down", "Right", "Right", "Right", "Up", "Right", "Left", "Down", "Down", "Down", "Up", "Right", "Right", "Right", "Down", "Up", "Right", "Right", "Left", "Right", "Down", "Right", "Left"]
+    }, {
+        "observations": [7, 0, 8, 9, 8, 9, 9, 0, 9, 8, 8, 9, 9, 8, 8, 8, 8, 9, 9, 9, 9, 8, 7, 7, 7, 7, 8, 8, 7, 7, 7, 2, 6, 6, 8],
+        "actions": ["Down", "Right", "Down", "Up", "Down", "Down", "Left", "Right", "Down", "Right", "Right", "Down", "Up", "Right", "Right", "Right", "Right", "Right", "Down", "Right", "Right", "Up", "Down", "Right", "Left", "Down", "Left", "Right", "Right", "Right", "Left", "Up", "Right", "Left"]
+    }, {
+        "observations": [7, 8, 8, 8, 7, 7, 8, 8, 8, 8, 8, 7, 0, 5, 5, 6, 6, 6, 6, 9, 4, 4, 4, 5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 5],
+        "actions": ["Right", "Right", "Right", "Left", "Right", "Down", "Right", "Left", "Right", "Right", "Left", "Up", "Up", "Left", "Down", "Left", "Right", "Right", "Up", "Right", "Left", "Left", "Right", "Right", "Right", "Right", "Right", "Down", "Right", "Right", "Right", "Left", "Right", "Right", "Down"]
+    }, {
+        "observations": [9, 9, 0, 9, 3, 7, 7, 7, 7, 7, 8, 9, 9, 9, 9, 9, 9, 9, 9, 8, 7, 2, 6, 6, 6, 7, 7, 7, 7, 7, 7, 8, 8, 9, 8, 0, 9],
+        "actions": ["Right", "Right", "Left", "Right", "Up", "Right", "Right", "Left", "Left", "Right", "Down", "Right", "Right", "Right", "Right", "Left", "Right", "Right", "Up", "Up", "Right", "Left", "Right", "Right", "Down", "Left", "Right", "Right", "Right", "Right", "Right", "Left", "Left", "Up", "Right", "Down"]
+    }, {
+        "observations": [7, 7, 7, 7, 7, 6, 7, 7, 3, 7, 6, 3, 5, 5, 5, 5, 5, 5, 4, 4, 1, 5, 6, 4, 5, 6, 6, 5, 1, 5, 5, 6, 5, 5, 5, 5, 5, 5],
+        "actions": ["Right", "Right", "Left", "Left", "Up", "Right", "Right", "Right", "Right", "Up", "Right", "Up", "Right", "Right", "Right", "Right", "Right", "Up", "Right", "Right", "Down", "Right", "Up", "Right", "Down", "Left", "Up", "Right", "Right", "Right", "Down", "Up", "Right", "Left", "Left", "Right", "Left"]
+    }, {
+        "observations": [4, 3, 3, 4, 5, 5, 5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 6, 3, 3, 2, 2, 2, 2, 2, 1, 3, 3, 3, 3, 2, 3, 3, 3, 3, 3, 3, 3, 3, 2],
+        "actions": ["Up", "Right", "Down", "Down", "Left", "Left", "Right", "Right", "Right", "Up", "Right", "Right", "Right", "Right", "Right", "Up", "Left", "Right", "Up", "Right", "Right", "Left", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Down", "Right", "Right", "Right", "Right", "Right", "Right", "Up", "Left"]
+    }, {
+        "observations": [1, 1, 3, 0, 0, 0, 0, 9, 0, 0, 7, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+        "actions": ["Right", "Up", "Right", "Left", "Up", "Left", "Right", "Right", "Up", "Right", "Right", "Left", "Right", "Down", "Left", "Right", "Right", "Up", "Up", "Right", "Right", "Left", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Left", "Right", "Up", "Right", "Right", "Left", "Up", "Right", "Right", "Right"]
+    }, {
+        "observations": [4, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 8, 2, 2, 1, 3, 1, 1, 1, 1, 1, 2, 8, 3, 2, 3, 2, 2, 2, 2, 6, 1, 1, 1, 0, 1, 1, 0, 1],
+        "actions": ["Up", "Right", "Down", "Right", "Right", "Up", "Right", "Left", "Right", "Left", "Right", "Right", "Right", "Right", "Right", "Up", "Right", "Right", "Right", "Right", "Left", "Right", "Right", "Down", "Right", "Right", "Down", "Right", "Right", "Right", "Right", "Right", "Up", "Right", "Right", "Right", "Right", "Right", "Up", "Down"]
+    }, {
+        "observations": [3, 6, 4, 4, 6, 5, 5, 5, 6, 6, 7, 7, 6, 7, 7, 3, 6, 6, 6, 7, 7, 7, 8, 8, 8, 8, 7, 7, 8, 9, 9, 8, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9],
+        "actions": ["Down", "Right", "Left", "Down", "Right", "Right", "Left", "Down", "Right", "Down", "Right", "Up", "Right", "Left", "Left", "Up", "Right", "Right", "Up", "Right", "Right", "Down", "Left", "Left", "Left", "Up", "Up", "Right", "Down", "Right", "Up", "Left", "Left", "Left", "Down", "Left", "Left", "Left", "Left", "Right", "Right"]
+    }, {
+        "observations": [7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 6, 6, 6, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 5, 6, 6, 6, 6, 6, 5, 4, 4, 4, 4],
+        "actions": ["Right", "Left", "Right", "Left", "Right", "Left", "Right", "Right", "Right", "Right", "Right", "Up", "Right", "Right", "Right", "Down", "Left", "Right", "Right", "Right", "Left", "Left", "Right", "Left", "Right", "Left", "Left", "Down", "Right", "Down", "Right", "Right", "Down", "Right", "Up", "Right", "Left", "Right", "Up", "Right", "Right", "Right"]
+    }, {
+        "observations": [1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 9, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 1, 1, 1, 1, 1, 2, 2, 3, 3, 3],
+        "actions": ["Left", "Up", "Right", "Right", "Up", "Left", "Down", "Right", "Left", "Right", "Right", "Left", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Down", "Right", "Up", "Right", "Left", "Right", "Right", "Left", "Right", "Left", "Right", "Right", "Down", "Right", "Right", "Right", "Right", "Down", "Right", "Down", "Left", "Left"]
+    }, {
+        "observations": [0, 0, 0, 0, 1, 1, 1, 1, 5, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 5, 2, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2],
+        "actions": ["Right", "Right", "Right", "Down", "Right", "Right", "Right", "Up", "Right", "Right", "Right", "Left", "Right", "Up", "Right", "Left", "Right", "Up", "Left", "Right", "Left", "Right", "Right", "Right", "Left", "Down", "Right", "Right", "Up", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Left", "Right", "Right", "Right", "Up", "Down", "Right", "Right"]
+    }, {
+        "observations": [4, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 6, 1, 1, 1, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0],
+        "actions": ["Right", "Up", "Right", "Left", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Left", "Right", "Right", "Right", "Left", "Left", "Right", "Right", "Right", "Left", "Up", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Left", "Right", "Left", "Left", "Right", "Left", "Left", "Up", "Right", "Right", "Right", "Down", "Up", "Right", "Right", "Right"]
+    }, {
+        "observations": [4, 4, 4, 4, 4, 4, 4, 4, 5, 6, 6, 6, 6, 6, 6, 6, 6, 6, 7, 7, 7, 7, 7, 8, 2, 9, 9, 9, 9, 2, 5, 8, 8, 8, 8, 4, 8, 8, 9, 0, 9, 9, 9, 9, 9, 9, 9],
+        "actions": ["Right", "Right", "Right", "Left", "Right", "Down", "Left", "Down", "Down", "Right", "Down", "Right", "Right", "Right", "Right", "Right", "Right", "Down", "Right", "Left", "Right", "Down", "Right", "Right", "Down", "Left", "Right", "Right", "Up", "Left", "Right", "Right", "Right", "Left", "Right", "Right", "Right", "Right", "Right", "Left", "Down", "Up", "Left", "Down", "Down", "Left"]
+    }, {
+        "observations": [0, 0, 0, 1, 1, 1, 2, 2, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 2, 1, 0, 0, 0, 1, 1, 1, 5, 2, 2, 2, 2, 2, 2, 2, 2, 3, 2, 2, 2, 2, 2, 2, 2, 7, 6, 3],
+        "actions": ["Right", "Right", "Down", "Right", "Right", "Down", "Left", "Down", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Down", "Right", "Left", "Right", "Left", "Right", "Right", "Right", "Right", "Right", "Left", "Right", "Left", "Left", "Right", "Right", "Right", "Right", "Right", "Right", "Down", "Up", "Right", "Right", "Right", "Left", "Right", "Right", "Right", "Right", "Down"]
+    }, {
+        "observations": [3, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 0, 7, 7, 6, 6, 6, 5, 5, 5, 0, 5, 4, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 7, 6, 6, 6, 6, 6, 7, 6, 6, 6, 6],
+        "actions": ["Up", "Left", "Left", "Right", "Right", "Right", "Right", "Right", "Left", "Left", "Right", "Right", "Right", "Up", "Right", "Right", "Up", "Right", "Right", "Right", "Right", "Left", "Down", "Right", "Left", "Right", "Right", "Right", "Right", "Left", "Right", "Right", "Right", "Left", "Right", "Right", "Left", "Down", "Right", "Right", "Right", "Right", "Down", "Down", "Up", "Left", "Right", "Right"]
+    }, {
+        "observations": [4, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 7, 9, 9, 9, 9, 0, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 2, 6, 7, 7, 7, 6, 6, 6, 6, 3, 5, 4, 6, 6, 6, 7, 7, 7, 7],
+        "actions": ["Right", "Right", "Right", "Right", "Right", "Right", "Right", "Right", "Down", "Left", "Right", "Down", "Right", "Left", "Right", "Down", "Down", "Down", "Right", "Left", "Right", "Right", "Left", "Left", "Right", "Right", "Right", "Right", "Down", "Left", "Right", "Up", "Up", "Right", "Right", "Up", "Right", "Left", "Right", "Left", "Right", "Down", "Down", "Right", "Left", "Down", "Right", "Right", "Right"]
+    }, {
+        "observations": [7, 6, 1, 4, 7, 7, 7, 7, 7, 7, 7, 6, 6, 6, 6, 2, 6, 0, 0, 6, 6, 7, 8, 6, 7, 7, 7, 8, 8, 8, 8, 8, 8, 8, 8, 8, 7, 7, 8, 9, 9, 0, 9, 9, 9, 9, 9, 9, 9, 9, 8],
+        "actions": ["Up", "Left", "Left", "Right", "Up", "Down", "Left", "Right", "Right", "Left", "Down", "Right", "Left", "Right", "Right", "Right", "Right", "Left", "Left", "Right", "Right", "Right", "Left", "Right", "Right", "Right", "Right", "Right", "Left", "Right", "Left", "Left", "Right", "Right", "Right", "Up", "Right", "Down", "Down", "Down", "Left", "Right", "Right", "Right", "Right", "Right", "Left", "Left", "Down", "Up"]
+    }]
+}]
